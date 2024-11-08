@@ -1,4 +1,5 @@
-const PROVIDER = {
-    KAKAO: 'kakao'
+export const PROVIDER = {
+    KAKAO: 'kakao',
+    OPENBANKING: 'openbanking'
 } as const;
-type PROVIDER = typeof PROVIDER[keyof typeof PROVIDER];
+export type PROVIDER = typeof PROVIDER[keyof typeof PROVIDER];

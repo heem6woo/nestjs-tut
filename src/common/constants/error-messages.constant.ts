@@ -2,7 +2,7 @@ export const ErrorMessages = {
     UNAUTHORIZED: 'Unauthorized access',
     NOT_FOUND: 'Resource not found',
     BAD_REQUEST: 'Invalid request',
-    INTERNAL_SERVER: 'Internal server error',
+    INTERNAL_SERVER_ERROR: 'Internal server error',
     INVALID_CREDENTIALS: 'Invalid credentials',
     FORBIDDEN: 'Access forbidden',
     VALIDATION_ERROR: 'Validation failed',
